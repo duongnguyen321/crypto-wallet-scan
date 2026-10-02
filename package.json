@@ -1,0 +1,15 @@
+{
+  "name": "auto-wallet",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
